@@ -1,0 +1,10 @@
+﻿{
+	"GraphSettings": {
+		"@jdt.replace": {
+			"bdappId": "111099",
+			"clientId": "cafe9a64-ff25-4d35-b703-dfe562e695e2",
+			"tenantId": "1e5cf8aa-e1b2-4519-b425-b2d428c8f81f",
+			"replyUri": "msalcafe9a64-ff25-4d35-b703-dfe562e695e2://auth"
+		}
+	}
+}

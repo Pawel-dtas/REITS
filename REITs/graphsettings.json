@@ -1,0 +1,12 @@
+{
+	"GraphSettings": {
+		"bdappId": "110985",
+		"clientId": "f42336f8-9705-47cd-a1d4-c29a481145cc",
+		"tenantId": "ac52f73c-fd1a-4a9a-8e7a-4a248f3139e1",
+		"replyUri": "urn:ietf:wg:oauth:2.0:oob",
+		"scopes": [
+			"Sites.Manage.All",
+			"User.Read"
+		]
+	}
+}

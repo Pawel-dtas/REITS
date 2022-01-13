@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B97C961-6006-4B4A-95CD-1BFBE255BA9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>REITs.DataLayer</RootNamespace>
+    <AssemblyName>REITs.DataLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Live|AnyCPU'">
+    <OutputPath>bin\Live\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PreProd|AnyCPU'">
+    <OutputPath>bin\PreProd\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'AWSLive|AnyCPU'">
+    <OutputPath>bin\AWSLive\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configurations\AdjustmentConfiguration.cs" />
+    <Compile Include="Configurations\AdjustmentTypeConfiguration.cs" />
+    <Compile Include="Configurations\EntityConfiguration.cs" />
+    <Compile Include="Configurations\ReconciliationConfiguration.cs" />
+    <Compile Include="Configurations\REITParentReviewConfigurationRFS.cs" />
+    <Compile Include="Configurations\REITParentReviewConfigurationFS.cs" />
+    <Compile Include="Configurations\REITParentConfiguration.cs" />
+    <Compile Include="Configurations\REITConfiguration.cs" />
+    <Compile Include="Configurations\REITTotalsConfiguration.cs" />
+    <Compile Include="Configurations\SystemAdminConfiguration.cs" />
+    <Compile Include="Migrations\201907101617562_1007.1.cs" />
+    <Compile Include="Migrations\201907101617562_1007.1.Designer.cs">
+      <DependentUpon>201907101617562_1007.1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907171825325_1707.1.cs" />
+    <Compile Include="Migrations\201907171825325_1707.1.Designer.cs">
+      <DependentUpon>201907171825325_1707.1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907241617259_2407.1.cs" />
+    <Compile Include="Migrations\201907241617259_2407.1.Designer.cs">
+      <DependentUpon>201907241617259_2407.1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907241658108_2407.2.cs" />
+    <Compile Include="Migrations\201907241658108_2407.2.Designer.cs">
+      <DependentUpon>201907241658108_2407.2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907241714128_2407.3.cs" />
+    <Compile Include="Migrations\201907241714128_2407.3.Designer.cs">
+      <DependentUpon>201907241714128_2407.3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907241728257_2407.4.cs" />
+    <Compile Include="Migrations\201907241728257_2407.4.Designer.cs">
+      <DependentUpon>201907241728257_2407.4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201908091339554_0908.1.cs" />
+    <Compile Include="Migrations\201908091339554_0908.1.Designer.cs">
+      <DependentUpon>201908091339554_0908.1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201909111039351_1109.1.cs" />
+    <Compile Include="Migrations\201909111039351_1109.1.Designer.cs">
+      <DependentUpon>201909111039351_1109.1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910021243444_0210.1.cs" />
+    <Compile Include="Migrations\201910021243444_0210.1.Designer.cs">
+      <DependentUpon>201910021243444_0210.1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Seeds\SystemAdminSeed.cs" />
+    <Compile Include="Configurations\SystemUserConfiguration.cs" />
+    <Compile Include="Contexts\ApplicationContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seeds\AdjustmentTypeSeed.cs" />
+    <Compile Include="Seeds\REITSeed.cs" />
+    <Compile Include="Seeds\SystemUserSeed.cs" />
+    <Compile Include="Services\AppData\REITDataService.cs" />
+    <Compile Include="Services\AppData\IREITDataService.cs" />
+    <Compile Include="Services\Reports\IReportService.cs" />
+    <Compile Include="Services\Reports\IReportServiceSQLCommands.cs" />
+    <Compile Include="Services\Reports\ReportServiceSQLCommands.cs" />
+    <Compile Include="Services\Search\ISearchService.cs" />
+    <Compile Include="Services\Reports\ReportService.cs" />
+    <Compile Include="Services\Search\SearchService.cs" />
+    <Compile Include="Services\UserData\IUserDataService.cs" />
+    <Compile Include="Services\UserData\UserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\REITs.Domain.csproj">
+      <Project>{6a115d43-5e57-4f86-bc43-d5db14420d13}</Project>
+      <Name>REITs.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\REITs.Infrastructure\REITs.Infrastructure.csproj">
+      <Project>{145df8a1-f163-424b-9ea8-ae853bb071e1}</Project>
+      <Name>REITs.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201907101617562_1007.1.resx">
+      <DependentUpon>201907101617562_1007.1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907171825325_1707.1.resx">
+      <DependentUpon>201907171825325_1707.1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907241617259_2407.1.resx">
+      <DependentUpon>201907241617259_2407.1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907241658108_2407.2.resx">
+      <DependentUpon>201907241658108_2407.2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907241714128_2407.3.resx">
+      <DependentUpon>201907241714128_2407.3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907241728257_2407.4.resx">
+      <DependentUpon>201907241728257_2407.4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201908091339554_0908.1.resx">
+      <DependentUpon>201908091339554_0908.1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201909111039351_1109.1.resx">
+      <DependentUpon>201909111039351_1109.1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910021243444_0210.1.resx">
+      <DependentUpon>201910021243444_0210.1.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EntityFramework">
+      <Version>6.2.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

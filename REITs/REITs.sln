@@ -1,0 +1,140 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs", "REITs\REITs.csproj", "{EF7BD32F-88AB-4E7C-AD87-FE5B03DBBD21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs.Domain", "Domain\REITs.Domain.csproj", "{6A115D43-5E57-4F86-BC43-D5DB14420D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs.DataLayer", "REITs.DataLayer\REITs.DataLayer.csproj", "{7B97C961-6006-4B4A-95CD-1BFBE255BA9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{10258FF3-79B2-4DC0-8342-FA4E93D4B6C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs.MenuModule", "REITs.Menu\REITs.MenuModule.csproj", "{B3DADE80-BFC8-42EB-B692-E4382AD5EC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs.Infrastructure", "REITs.Infrastructure\REITs.Infrastructure.csproj", "{145DF8A1-F163-424B-9EA8-AE853BB071E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs.AppInfoModule", "REITs.AppInfo\REITs.AppInfoModule.csproj", "{3103F58B-0262-4574-A93D-F27D661D94B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs.Application", "REITs.Application\REITs.Application.csproj", "{2C3ADD67-093D-4492-BA86-B3DF4421D100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs.SearchModule", "REITs.SearchModule\REITs.SearchModule.csproj", "{7F4493B5-7FA0-4856-AA67-A8CCA7F4074D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs.UserModule", "REITs.UserModule\REITs.UserModule.csproj", "{E4D930D2-FC57-41E7-991E-CAB77257831F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs.ImportModule", "REITs.ImportModule\REITs.ImportModule.csproj", "{99012A25-6F04-424D-B644-3357D1EA18C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REITs.ReportsModule", "REITs.ReportsModule\REITs.ReportsModule.csproj", "{1950594D-A402-4C78-B88A-77CADA6EAF91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF7BD32F-88AB-4E7C-AD87-FE5B03DBBD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7BD32F-88AB-4E7C-AD87-FE5B03DBBD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7BD32F-88AB-4E7C-AD87-FE5B03DBBD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7BD32F-88AB-4E7C-AD87-FE5B03DBBD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A115D43-5E57-4F86-BC43-D5DB14420D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A115D43-5E57-4F86-BC43-D5DB14420D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A115D43-5E57-4F86-BC43-D5DB14420D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A115D43-5E57-4F86-BC43-D5DB14420D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B97C961-6006-4B4A-95CD-1BFBE255BA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B97C961-6006-4B4A-95CD-1BFBE255BA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B97C961-6006-4B4A-95CD-1BFBE255BA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B97C961-6006-4B4A-95CD-1BFBE255BA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DADE80-BFC8-42EB-B692-E4382AD5EC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DADE80-BFC8-42EB-B692-E4382AD5EC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DADE80-BFC8-42EB-B692-E4382AD5EC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DADE80-BFC8-42EB-B692-E4382AD5EC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145DF8A1-F163-424B-9EA8-AE853BB071E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145DF8A1-F163-424B-9EA8-AE853BB071E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145DF8A1-F163-424B-9EA8-AE853BB071E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145DF8A1-F163-424B-9EA8-AE853BB071E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3103F58B-0262-4574-A93D-F27D661D94B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3103F58B-0262-4574-A93D-F27D661D94B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3103F58B-0262-4574-A93D-F27D661D94B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3103F58B-0262-4574-A93D-F27D661D94B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3ADD67-093D-4492-BA86-B3DF4421D100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3ADD67-093D-4492-BA86-B3DF4421D100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3ADD67-093D-4492-BA86-B3DF4421D100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3ADD67-093D-4492-BA86-B3DF4421D100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4493B5-7FA0-4856-AA67-A8CCA7F4074D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4493B5-7FA0-4856-AA67-A8CCA7F4074D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4493B5-7FA0-4856-AA67-A8CCA7F4074D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4493B5-7FA0-4856-AA67-A8CCA7F4074D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D930D2-FC57-41E7-991E-CAB77257831F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D930D2-FC57-41E7-991E-CAB77257831F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D930D2-FC57-41E7-991E-CAB77257831F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D930D2-FC57-41E7-991E-CAB77257831F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99012A25-6F04-424D-B644-3357D1EA18C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99012A25-6F04-424D-B644-3357D1EA18C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99012A25-6F04-424D-B644-3357D1EA18C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99012A25-6F04-424D-B644-3357D1EA18C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1950594D-A402-4C78-B88A-77CADA6EAF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1950594D-A402-4C78-B88A-77CADA6EAF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1950594D-A402-4C78-B88A-77CADA6EAF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1950594D-A402-4C78-B88A-77CADA6EAF91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3DADE80-BFC8-42EB-B692-E4382AD5EC0C} = {10258FF3-79B2-4DC0-8342-FA4E93D4B6C4}
+		{3103F58B-0262-4574-A93D-F27D661D94B7} = {10258FF3-79B2-4DC0-8342-FA4E93D4B6C4}
+		{7F4493B5-7FA0-4856-AA67-A8CCA7F4074D} = {10258FF3-79B2-4DC0-8342-FA4E93D4B6C4}
+		{E4D930D2-FC57-41E7-991E-CAB77257831F} = {10258FF3-79B2-4DC0-8342-FA4E93D4B6C4}
+		{99012A25-6F04-424D-B644-3357D1EA18C9} = {10258FF3-79B2-4DC0-8342-FA4E93D4B6C4}
+		{1950594D-A402-4C78-B88A-77CADA6EAF91} = {10258FF3-79B2-4DC0-8342-FA4E93D4B6C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C93DC1F8-4C6D-4ED2-A5C0-2C61E20C96CE}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://btcitsqlserver:8080/tfs/teamprojects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Domain\\REITs.Domain.csproj
+		SccProjectName1 = Domain
+		SccLocalPath1 = Domain
+		SccProjectUniqueName2 = REITs.AppInfo\\REITs.AppInfoModule.csproj
+		SccProjectTopLevelParentUniqueName2 = REITs.sln
+		SccProjectName2 = REITs.AppInfo
+		SccLocalPath2 = REITs.AppInfo
+		SccProjectUniqueName3 = REITs.Application\\REITs.Application.csproj
+		SccProjectName3 = REITs.Application
+		SccLocalPath3 = REITs.Application
+		SccProjectUniqueName4 = REITs.DataLayer\\REITs.DataLayer.csproj
+		SccProjectName4 = REITs.DataLayer
+		SccLocalPath4 = REITs.DataLayer
+		SccProjectUniqueName5 = REITs.ImportModule\\REITs.ImportModule.csproj
+		SccProjectTopLevelParentUniqueName5 = REITs.sln
+		SccProjectName5 = REITs.ImportModule
+		SccLocalPath5 = REITs.ImportModule
+		SccProjectUniqueName6 = REITs.Infrastructure\\REITs.Infrastructure.csproj
+		SccProjectName6 = REITs.Infrastructure
+		SccLocalPath6 = REITs.Infrastructure
+		SccProjectUniqueName7 = REITs.Menu\\REITs.MenuModule.csproj
+		SccProjectTopLevelParentUniqueName7 = REITs.sln
+		SccProjectName7 = REITs.Menu
+		SccLocalPath7 = REITs.Menu
+		SccProjectUniqueName8 = REITs.ReportsModule\\REITs.ReportsModule.csproj
+		SccProjectTopLevelParentUniqueName8 = REITs.sln
+		SccProjectName8 = REITs.ReportsModule
+		SccLocalPath8 = REITs.ReportsModule
+		SccProjectUniqueName9 = REITs.SearchModule\\REITs.SearchModule.csproj
+		SccProjectTopLevelParentUniqueName9 = REITs.sln
+		SccProjectName9 = REITs.SearchModule
+		SccLocalPath9 = REITs.SearchModule
+		SccProjectUniqueName10 = REITs.UserModule\\REITs.UserModule.csproj
+		SccProjectTopLevelParentUniqueName10 = REITs.sln
+		SccProjectName10 = REITs.UserModule
+		SccLocalPath10 = REITs.UserModule
+		SccProjectUniqueName11 = REITs\\REITs.csproj
+		SccProjectName11 = REITs
+		SccLocalPath11 = REITs
+	EndGlobalSection
+EndGlobal
